@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "957257744029",
+    "firebase_url": "https://handiwalaapp.firebaseio.com",
+    "project_id": "handiwalaapp",
+    "storage_bucket": "handiwalaapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957257744029:android:78e49d59567bcdfc5d9e74",
+        "android_client_info": {
+          "package_name": "com.tecqza.handiwala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957257744029-h6hd79e3hg1o84njplh2egja92spdm7l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYvi26XE5pyfD0Ick4TzndOi1is4kLHgM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957257744029-h6hd79e3hg1o84njplh2egja92spdm7l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

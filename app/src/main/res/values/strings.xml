@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Handiwala</string>
+
+        <string name="base_url">https://www.tecqza.net/handiwala.in/admin/app/</string>
+        <string name="file_base_url">https://www.tecqza.net/handiwala.in/admin/files/</string>
+
+<!--    <string name="base_url">http://192.168.1.110/handiwala.com/app/</string>-->
+<!--    <string name="file_base_url">http://192.168.1.110/handiwala.com/files/</string>-->
+
+</resources>

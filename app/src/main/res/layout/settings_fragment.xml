@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="650dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="850dp"
+            android:paddingBottom="80dp">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/back" />
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/profile"
+                android:layout_width="90dp"
+                android:background="@color/yellow"
+                android:layout_height="90dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/handi_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/back"
+                app:riv_border_color="@color/white"
+                app:riv_border_width="3dp"
+                app:riv_corner_radius="2dp"
+                app:riv_mutate_background="true"
+                app:riv_oval="true" />
+
+            <TextView
+                android:id="@+id/textView111"
+                style="@style/TextWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:text="Upload"
+                android:textSize="10sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="@+id/profile"
+                app:layout_constraintEnd_toEndOf="@+id/profile"
+                app:layout_constraintHorizontal_bias="0.48"
+                app:layout_constraintStart_toStartOf="@+id/profile" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="Hello"
+                android:textStyle="normal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/profile"
+                app:layout_constraintTop_toTopOf="@+id/profile" />
+
+            <TextView
+                android:id="@+id/name1"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/textView11"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="0dp"
+                android:layout_height="0.1dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/gray"
+                app:layout_constraintBottom_toTopOf="@+id/textView33"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView113" />
+
+            <TextView
+                android:id="@+id/textView33"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Personal Details"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/profile"
+                app:layout_constraintTop_toBottomOf="@+id/profile" />
+
+            <TextView
+                android:id="@+id/edit1"
+                style="@style/TextRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:text="Edit"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView33"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView33" />
+
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/TextBlack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:hint="Start Typing"
+                android:inputType="textPersonName"
+                android:paddingStart="5dp"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
+                app:layout_constraintEnd_toStartOf="@+id/edit1"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/textView37" />
+
+            <TextView
+                android:id="@+id/textView37"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Mobile"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/textView33"
+                app:layout_constraintTop_toBottomOf="@+id/name" />
+
+            <TextView
+                android:id="@+id/mobile"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="5dp"
+                android:text="9090909090"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textView37"
+                app:layout_constraintStart_toStartOf="@+id/name" />
+
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/TextBlack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="example@mail.com"
+                android:inputType="textEmailAddress"
+                android:paddingStart="5dp"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                app:layout_constraintBaseline_toBaselineOf="@+id/email_label"
+                app:layout_constraintEnd_toEndOf="@+id/name"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/mobile" />
+
+
+            <EditText
+                android:id="@+id/address"
+                style="@style/TextBlack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:hint="street, locality"
+                android:inputType="textPostalAddress"
+                android:paddingStart="5dp"
+                android:textSize="13sp"
+                android:textStyle="normal"
+                app:layout_constraintBaseline_toBaselineOf="@+id/address_label"
+                app:layout_constraintEnd_toEndOf="@+id/email"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/email" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Name"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/textView33"
+                app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+            <TextView
+                android:id="@+id/email_label"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Email"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/textView37"
+                app:layout_constraintTop_toBottomOf="@+id/mobile" />
+
+
+            <TextView
+                android:id="@+id/address_label"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Home"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/email_label"
+                app:layout_constraintTop_toBottomOf="@+id/email" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_width="0dp"
+                android:layout_height="0.1dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/gray"
+                app:layout_constraintBottom_toTopOf="@+id/textView113"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/textView113" />
+
+            <TextView
+                android:id="@+id/textView113"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Useful Links"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/profile"
+                app:layout_constraintTop_toBottomOf="@+id/address_label" />
+
+
+            <TextView
+                android:id="@+id/t_n_c"
+                style="@style/TextGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Terms and Conditions"
+                app:layout_constraintStart_toStartOf="@+id/textView113"
+                app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+
+            <TextView
+                android:id="@+id/privacy_policy"
+                style="@style/TextGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Privacy Policy"
+                app:layout_constraintStart_toStartOf="@+id/textView113"
+                app:layout_constraintTop_toBottomOf="@+id/t_n_c" />
+
+            <TextView
+                android:id="@+id/refund_cancellation"
+                style="@style/TextGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Refund and Cancellation"
+                app:layout_constraintStart_toStartOf="@+id/textView113"
+                app:layout_constraintTop_toBottomOf="@+id/privacy_policy" />
+
+
+            <TextView
+                android:id="@+id/about_us"
+                style="@style/TextGrey"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="About Us"
+                app:layout_constraintStart_toStartOf="@+id/refund_cancellation"
+                app:layout_constraintTop_toBottomOf="@+id/refund_cancellation" />
+
+
+            <View
+                android:id="@+id/view14"
+                android:layout_width="0dp"
+                android:layout_height="0.1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:background="@color/gray"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/about_us"
+                app:layout_constraintTop_toBottomOf="@+id/about_us" />
+
+
+
+            <TextView
+                android:id="@+id/rate_us"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Rate Us on Play Store"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/about_us"
+                app:layout_constraintTop_toBottomOf="@+id/view14" />
+
+            <TextView
+                android:id="@+id/log_out"
+                style="@style/TextBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Log Out"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/rate_us"
+                app:layout_constraintTop_toBottomOf="@+id/rate_us" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

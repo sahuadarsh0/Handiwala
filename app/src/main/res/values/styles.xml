@@ -1,0 +1,194 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/gray6</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextBlack">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextGrey">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TextRed">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="TextYellow">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+    <style name="TextWhite">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
+    <style name="TexInputStyle">
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:elevation">3dp</item>
+    </style>
+
+    <style name="DisabledButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:elevation">3dp</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="backgroundTint">@color/light</item>
+        <item name="android:textColor">@color/input_gray</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EnabledButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:elevation">3dp</item>
+        <item name="rippleColor">@color/white</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="backgroundTint">@color/glo_green</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonStyle.black">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">50dp</item>
+        <item name="android:paddingLeft">50dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.small">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.medium">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.large">
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">25dp</item>
+    </style>
+
+    <style name="ButtonStyle.large.filled">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.large.yellow">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/yellow</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.large.green">
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundTint">@color/glo_green</item>
+        <item name="rippleColor">@color/white</item>
+    </style>
+
+    <style name="ButtonStyle.small.yellow">
+        <item name="backgroundTint">@color/yellow</item>
+    </style>
+
+    <style name="ButtonStyle.small.green">
+        <item name="backgroundTint">@color/glo_green</item>
+    </style>
+
+
+    <style name="ButtonStyle.Outline">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="ButtonStyle.Square">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="backgroundTint">@color/transparent</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="strokeColor">@color/white</item>
+    </style>
+
+
+
+    <style name="DialogTheme" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+</resources>

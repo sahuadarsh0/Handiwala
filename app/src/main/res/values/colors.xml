@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/theme</color>
+    <color name="colorPrimaryDark">@color/theme</color>
+    <color name="colorAccent">@color/yellow_2</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="light">#E4E4E4</color>
+    <color name="black">#000000</color>
+
+    <color name="pending">#FFA726</color>
+    <color name="allotted">#2196F3</color>
+    <color name="glide_slider_background_color">#000000</color>
+
+    <color name="pending_light">#09FFA726</color>
+    <color name="rejected_light">#09EF5350</color>
+    <color name="delivered_light">#0966BB6A</color>
+    <color name="allotted_light">#092196F3</color>
+
+    <color name="dialog_base">#CA000000</color>
+    <color name="light_gray">#88757575</color>
+    <color name="gray">#383838</color>
+    <color name="grey">#585858</color>
+    <color name="red">#EF5350</color>
+    <color name="green">#66BB6A</color>
+    <color name="glo_green">#4FC406</color>
+    <color name="blue">#6DCFF6</color>
+
+    <color name="processDialogPart1">#5E515151</color>
+    <color name="processDialogPart2">#5E515151</color>
+    <color name="processDialogPart3">#5E515151</color>
+    <color name="processDialogPart4">#5E515151</color>
+    <color name="processDialogPart5">#5E515151</color>
+    <color name="processDialogPart6">#5E515151</color>
+    <color name="processDialogPart7">#5E515151</color>
+    <color name="processDialogPart8">#5E515151</color>
+    <color name="processDialogMover">@color/theme</color>
+    <color name="yellow">@color/theme</color>
+    <color name="theme">#902A19</color>
+<!--    <color name="theme">#8F1804</color>-->
+
+    <color name="yellow_2">#FEBE14</color>
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#D5000000</color>
+    <color name="low_transparent">#E0FFFFFF</color>
+    <color name="light_yellow">#FDD835</color>
+    <color name="light_graay">#767676</color>
+    <color name="input_gray">#9E9E9E</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="gray6">#F6F6F6</color>
+
+</resources>
